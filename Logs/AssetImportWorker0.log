@@ -15,7 +15,7 @@ C:/Git hub/RowellPrototypes2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59320
+59454
 Successfully changed project path to: C:/Git hub/RowellPrototypes2022
 C:/Git hub/RowellPrototypes2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,12 @@ C:/Git hub/RowellPrototypes2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15688] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 4242783924 [EditorId] 4242783924 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15936] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 3199273232 [EditorId] 3199273232 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15688] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 4242783924 [EditorId] 4242783924 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15936] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 3199273232 [EditorId] 3199273232 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 66.15 ms, found 3 plugins.
+Default GameObject BitMask: UI already registered
+Refreshing native plugins compatible for Editor in 69.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,78 +68,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007195 seconds.
+Registered in 0.007980 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
+- Completed reload, in  0.622 seconds
 Domain Reload Profiling:
-	ReloadAssembly (582ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (258ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004475 seconds.
+Registered in 0.004515 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  0.914 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (915ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (645ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (291ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +147,14 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Default GameObject BitMask: UI already registered
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (56.6 KB). Loaded Objects now: 3453.
-Memory consumption went from 108.3 MB to 108.3 MB.
-Total: 2.651400 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.247600 ms  DeleteObjects: 0.068500 ms)
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (121.2 KB). Loaded Objects now: 3611.
+Memory consumption went from 114.4 MB to 114.3 MB.
+Total: 2.734200 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.156600 ms MarkObjects: 2.272600 ms  DeleteObjects: 0.077100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,144 +168,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 70249.874860 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Readme.asset
-  artifactKey: Guid(4bbba03f3ed882d41bc9a67391c8479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Readme.asset using Guid(4bbba03f3ed882d41bc9a67391c8479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820dae02ec3bbce829d8d994ea61d6ba') in 0.021912 seconds 
+  Time since last request: 70602.201013 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(176ac20c41a2f78489c43549e1fafa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(176ac20c41a2f78489c43549e1fafa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933d53a41dcf498366237b2b26100ecb') in 0.009471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.456963 seconds.
-  path: Assets/Materials/Colour #1.mat
-  artifactKey: Guid(8b5b09f7a34d367449049d5dc49f94e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Colour #1.mat using Guid(8b5b09f7a34d367449049d5dc49f94e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f2979a2bd262a64aee0a2c1cbadef9') in 0.293896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.006643 seconds.
-  path: Assets/Scenes/Horror Game.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Horror Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089724f60b36b1a883dde01948de25d') in 0.005345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.706253 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets
-  artifactKey: Guid(16a096e4285719b4c9f1002816ea53e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets using Guid(16a096e4285719b4c9f1002816ea53e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5130167dba3abcf2095bd3ac35770972') in 0.006834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.620343 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/2-Source
-  artifactKey: Guid(34b1f7bb62fd0f241bc8aff7cfb9bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source using Guid(34b1f7bb62fd0f241bc8aff7cfb9bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e357e36536c19db49a533da8ffb8733') in 0.007618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.827072 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets
-  artifactKey: Guid(0424d34bd7dc7dd40b3a0c0a76b01372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets using Guid(0424d34bd7dc7dd40b3a0c0a76b01372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a841f7824cd47be993647e4ba592ee0') in 0.009502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.241964 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes
-  artifactKey: Guid(cb619fd9f51169c4cb8af381f53f6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes using Guid(cb619fd9f51169c4cb8af381f53f6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7efa08de153cd26f9e6bf568b9e44b') in 0.007131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.076095 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes/FPSCharacterDemo.unity
-  artifactKey: Guid(256769920e9044840af722b74e30b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes/FPSCharacterDemo.unity using Guid(256769920e9044840af722b74e30b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d39b15f31c0ab3ec4de7be1025058f2') in 0.006665 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.007971 seconds 
 ========================================================================
 Received Prepare
+Default GameObject BitMask: UI already registered
 Registering precompiled user dll's ...
-Registered in 0.003991 seconds.
+Registered in 0.004501 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Layer:Player added by EtraStarterAssetSetup.cs
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:116)
-EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:28)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs Line: 116)
-
-Default GameObject BitMask: UI already registered
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:120)
-EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:28)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs line 120]
-
-Layer:EtraFPSUsableItem added by EtraStarterAssetSetup.cs
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:116)
-EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:29)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs Line: 116)
-
-Default GameObject BitMask: UI already registered
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:120)
-EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:29)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs line 120]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
+- Completed reload, in  1.297 seconds
 Domain Reload Profiling:
-	ReloadAssembly (873ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (649ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (571ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (119.4 KB). Loaded Objects now: 3666.
-Memory consumption went from 117.1 MB to 117.0 MB.
-Total: 2.571800 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.169200 ms  DeleteObjects: 0.065000 ms)
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (95.3 KB). Loaded Objects now: 3626.
+Memory consumption went from 112.6 MB to 112.5 MB.
+Total: 3.306900 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.178400 ms MarkObjects: 2.813600 ms  DeleteObjects: 0.041300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -315,3 +236,449 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 210.983553 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb672f9cf7a9febb460d618019ac2af') in 0.197031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/standingButton.fbx
+  artifactKey: Guid(30c3ffc58d622f140bbe3c26f1a4b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/standingButton.fbx using Guid(30c3ffc58d622f140bbe3c26f1a4b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bed00bfb11ec01bfca947edef8a4f8d') in 0.392374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonHover.mat
+  artifactKey: Guid(5e8f254478f58e88786a2cade194947a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonHover.mat using Guid(5e8f254478f58e88786a2cade194947a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d47cac3bff9adf15555407fd36e3f0') in 0.032729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1e133eab684b112d436119b7760b8c') in 0.052519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonBase.mat
+  artifactKey: Guid(fc212598e943389aeb71246005a9b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonBase.mat using Guid(fc212598e943389aeb71246005a9b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ab0cb660a29403a81d938b65a00f27') in 0.031778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Blue_Mat.mat
+  artifactKey: Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Blue_Mat.mat using Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01fabbbce9901805c2719d5bbfe09dd') in 0.024988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceba61d81697ca36e149a131424c570') in 0.276000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.931718 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonMain.mat
+  artifactKey: Guid(d329c0828e5b04f73aa8fba6cad0d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonMain.mat using Guid(d329c0828e5b04f73aa8fba6cad0d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1db542207c52fade72abd01f807eb2') in 0.012557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonPressed.mat
+  artifactKey: Guid(08821076175444faab3ff218b8ec4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonPressed.mat using Guid(08821076175444faab3ff218b8ec4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e9b13a0758f3936f9c11b2e3d503d') in 0.014314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032521 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonScreen.mat
+  artifactKey: Guid(6a28708f2284af2dc83c94123def9b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonScreen.mat using Guid(6a28708f2284af2dc83c94123def9b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5189d744ecf6aa952eb4e8fd829cec') in 0.011193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterMat.mat
+  artifactKey: Guid(bbd483bd0da3cd94cbb105de60e11bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterMat.mat using Guid(bbd483bd0da3cd94cbb105de60e11bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a398d6fb16e544df2bc83948ab44f') in 0.015911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027048 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_1.obj
+  artifactKey: Guid(bbd07f5bea472594b9b608efd5357525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_1.obj using Guid(bbd07f5bea472594b9b608efd5357525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc963532dcc4f07f70a1131ec7ca1425') in 0.035992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.356942 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_2.obj
+  artifactKey: Guid(4a7f53fd7adced34e8838d2564464810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_2.obj using Guid(4a7f53fd7adced34e8838d2564464810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fa330f28323210955e2dffa2f949d1') in 0.023249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterJump_1.obj
+  artifactKey: Guid(3fcd0b22c2baab54b9d6325ddc633291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterJump_1.obj using Guid(3fcd0b22c2baab54b9d6325ddc633291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a813701b4060124254317de4f29e03') in 0.042658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141536 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_2.obj
+  artifactKey: Guid(178f745d67c6ab8469d1eff67fce325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_2.obj using Guid(178f745d67c6ab8469d1eff67fce325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5a7fe31a4369cc4c8af5f49a80c28b') in 0.023202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_1.obj
+  artifactKey: Guid(75b854e5346818c40a4e71c38477d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_1.obj using Guid(75b854e5346818c40a4e71c38477d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e36a1cd96b89f9633a4dbab08158d41') in 0.046962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139511 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/scifiDoor.fbx
+  artifactKey: Guid(52d987aaa397a2676940f04a85408c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/scifiDoor.fbx using Guid(52d987aaa397a2676940f04a85408c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229b8c184ae20751ec7cbd7571921578') in 0.103530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036520 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/FlashlightMaterial.mat
+  artifactKey: Guid(c67ecdca9425a714f9d307441545f578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/FlashlightMaterial.mat using Guid(c67ecdca9425a714f9d307441545f578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f3c22fb766cd0bc7737e6987137765') in 0.023684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069429 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bbc68a28c12c2090b6be4e15305be4') in 0.026498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/GoogleFonts/Montserrat-Black.ttf
+  artifactKey: Guid(ee802440267c37a4198938899eef7242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/GoogleFonts/Montserrat-Black.ttf using Guid(ee802440267c37a4198938899eef7242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2833e70cc3b084a7736b6c8a37e8079') in 0.028993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022525 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6a41aaff3d8c6b4d63549f7594512b') in 0.088927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat
+  artifactKey: Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat using Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3491525d29dc45d653b2a8b503562b') in 0.234741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b55a40063eafefa2dbd80f118307ba2') in 0.103442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  artifactKey: Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx using Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921bf7024d30826ab8d241f3f26a75e5') in 0.034724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024011 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6198301e017578264a2f398f732a5113') in 0.026778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317578 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2553c69d4ce08815be6848b2ef202c9') in 0.024475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
+  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9948fe0058c81cca910e7790ec36e5b0') in 0.029923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039690 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662760b70c8491cd750984f32300a894') in 0.019396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f272433298cdca546ea58c60bce28fe') in 0.035515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169772 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/fixedBlaster.fbx
+  artifactKey: Guid(241d339f4216d7c4599d04763ac423c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/fixedBlaster.fbx using Guid(241d339f4216d7c4599d04763ac423c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb9f5c02b8fa0e0a8a37cab8eaeeab') in 0.031196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/GunMats.mat
+  artifactKey: Guid(8c6da22db96e9b74b8003f6870487def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/GunMats.mat using Guid(8c6da22db96e9b74b8003f6870487def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdc31adfc08ebcaa165fb63baaa2db4') in 0.176682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd135142c8e48273036179d63f5dab8') in 0.072393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f13190ebb6c978cd8c55fa47aa252e') in 0.072955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182342 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF 1.asset
+  artifactKey: Guid(c63a0f05d6f46fa41b4384aecb72479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF 1.asset using Guid(c63a0f05d6f46fa41b4384aecb72479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20f076f300445b985f122aba2b3da90') in 0.048097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0360395d81a9ed603431c6f9b76265d4') in 0.045146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033803 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd0a6d65efacd679a2857299d88eb9b') in 0.017699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
+  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3f9b31dc352a496adda22d64716b33') in 0.311647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat
+  artifactKey: Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat using Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16398ce1449c6454015ae67a500b1970') in 0.251454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5ca1f3ae57181aa961afcef80429c0') in 0.029805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
+  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e82cf584eda6c9a0cfdaf0cb45994e') in 0.028235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat
+  artifactKey: Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat using Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfc26bfd3b5d89f5b4003f8a5fb250c') in 0.028053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat
+  artifactKey: Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat using Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6286a3002b952f906bc51e25a87ffcad') in 0.030496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+  artifactKey: Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx using Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc1051f69db314b40292f88e465d61e') in 0.064518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.568972 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/sword.fbx
+  artifactKey: Guid(3ccc8beee67ab6d4e8a88939b0aa6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/sword.fbx using Guid(3ccc8beee67ab6d4e8a88939b0aa6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cf2de1d4f6c50498034bc61a5b2e11') in 0.020920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/physicsGrabber.fbx
+  artifactKey: Guid(7fb06094f45956cc596e8b36a78ef932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/physicsGrabber.fbx using Guid(7fb06094f45956cc596e8b36a78ef932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233b3472f762b1f28f2bc9e57536b1dc') in 0.089874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.573849 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/GoogleFonts/Montserrat-Black SDF.asset
+  artifactKey: Guid(21d5b7af12250d44e9b725d200fa4c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/GoogleFonts/Montserrat-Black SDF.asset using Guid(21d5b7af12250d44e9b725d200fa4c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988b940bc6607c8e81ea9dd9ce8c4fff') in 0.031591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/ProjectileMat.mat
+  artifactKey: Guid(6ec7b655645af9d479f78f8d90f0ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/ProjectileMat.mat using Guid(6ec7b655645af9d479f78f8d90f0ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bf95f256e82036d8c9ba7aa4366fbb') in 0.015458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.286649 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
+  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a2645f1432854f210a21a3b837cf1d') in 0.014674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
+  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339ceb0902c8246f4535dafd1166d505') in 0.022471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081454 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat
+  artifactKey: Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat using Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d92241ceabeca31229dcd0d42bf72e') in 0.010446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/Treadmill/Treadmill.mat
+  artifactKey: Guid(5f9485784388c7e41b7daa0b3656de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/Treadmill/Treadmill.mat using Guid(5f9485784388c7e41b7daa0b3656de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e476e87f07f6f54761d3ba4e528e90') in 0.025019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.327135 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/White Smoke.mat
+  artifactKey: Guid(5fc04186b724cc4d39bfaa11dce5b737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/White Smoke.mat using Guid(5fc04186b724cc4d39bfaa11dce5b737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c70062121f5c398de65addb8a399bc') in 1.509249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/White Smoke 1.mat
+  artifactKey: Guid(bedae399709ba5d93a8a0e94d4b5ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/White Smoke 1.mat using Guid(bedae399709ba5d93a8a0e94d4b5ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0185923266759fefd61f336dec6748e7') in 0.198214 seconds 
+========================================================================
+Received Prepare
+Default GameObject BitMask: UI already registered
+Registering precompiled user dll's ...
+Registered in 0.004273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1076ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (95.3 KB). Loaded Objects now: 3692.
+Memory consumption went from 190.5 MB to 190.4 MB.
+Total: 3.757900 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.251300 ms MarkObjects: 3.079800 ms  DeleteObjects: 0.042700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 591.434450 seconds.
+  path: Assets/Materials/Neutral Floor.mat
+  artifactKey: Guid(87729b76e1becc843a84e52dd9142234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Neutral Floor.mat using Guid(87729b76e1becc843a84e52dd9142234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd229d3dbff972e74eda67cc4490da678') in 0.076867 seconds 
+========================================================================
+Received Prepare
+Default GameObject BitMask: UI already registered
+Registering precompiled user dll's ...
+Registered in 0.004223 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (95.4 KB). Loaded Objects now: 3707.
+Memory consumption went from 190.5 MB to 190.4 MB.
+Total: 5.478200 ms (FindLiveObjects: 0.602200 ms CreateObjectMapping: 0.487500 ms MarkObjects: 4.314000 ms  DeleteObjects: 0.073300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 308.849783 seconds.
+  path: Assets/Materials/Neutral Floor.mat
+  artifactKey: Guid(87729b76e1becc843a84e52dd9142234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Neutral Floor.mat using Guid(87729b76e1becc843a84e52dd9142234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de17df84affc50064cfa8523ca21a8') in 0.077396 seconds 
