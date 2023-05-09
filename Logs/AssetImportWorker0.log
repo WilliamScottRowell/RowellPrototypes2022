@@ -1,0 +1,1260 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Git hub/RowellPrototypes2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55907
+Successfully changed project path to: C:/Git hub/RowellPrototypes2022
+C:/Git hub/RowellPrototypes2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18088] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 2519438526 [EditorId] 2519438526 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18088] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 2519438526 [EditorId] 2519438526 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Default GameObject BitMask: UI already registered
+Refreshing native plugins compatible for Editor in 77.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Git hub/RowellPrototypes2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8082 MB
+    Driver:   30.0.101.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007521 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (603ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Default GameObject BitMask: UI already registered
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3159 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (129.9 KB). Loaded Objects now: 3649.
+Memory consumption went from 203.4 MB to 203.2 MB.
+Total: 2.679400 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.148400 ms MarkObjects: 2.217500 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 413311.836656 seconds.
+  path: Assets/Asset pack for horror game/Demo
+  artifactKey: Guid(1c08cc85fc471de458fb75c083199d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Demo using Guid(1c08cc85fc471de458fb75c083199d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957a33e5e69498b41dce331bb98f944b') in 0.010020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.125499 seconds.
+  path: Assets/Asset pack for horror game/Models
+  artifactKey: Guid(865fc152b1e02104694285a429b10dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models using Guid(865fc152b1e02104694285a429b10dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4234dbe8d61e192fae90b19d9c919bb5') in 0.006639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.921324 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp
+  artifactKey: Guid(157aabb50e9e8c94bb7f503bd9226819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp using Guid(157aabb50e9e8c94bb7f503bd9226819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a977028a4592a4d6c24617093bb7f62') in 0.006497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296579 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.fbx
+  artifactKey: Guid(5d9c5baea1407914486c3f1d6c45d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.fbx using Guid(5d9c5baea1407914486c3f1d6c45d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b97a35e64ce5dd441d4a9b568eac1a') in 0.168052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.mat
+  artifactKey: Guid(3f0b9a55f0e709d4d83117ba1af763f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.mat using Guid(3f0b9a55f0e709d4d83117ba1af763f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e4c6f65be41b70ca9272a6324bbff4') in 0.100741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_BaseColor.png
+  artifactKey: Guid(f58759c9b42596440a42a54516cb6536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_BaseColor.png using Guid(f58759c9b42596440a42a54516cb6536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0decc32255bce2ea7e1677423dfbe15') in 0.167895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Normal.png
+  artifactKey: Guid(7ed2c3cbb60a2e44aa8e0329de3c9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Normal.png using Guid(7ed2c3cbb60a2e44aa8e0329de3c9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f48636a1871501bf6d996442a0e2b3') in 0.047357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Roughness.png
+  artifactKey: Guid(f40fd272825fcea4fafae318e507a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Roughness.png using Guid(f40fd272825fcea4fafae318e507a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6e73e76c2256565af0a54f3898ea6e') in 0.065657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Metallic.png
+  artifactKey: Guid(1515f13687de5324da652a9a93e438af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Metallic.png using Guid(1515f13687de5324da652a9a93e438af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c48720e0d0536be9678dc74442088ec') in 0.054256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.034664 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair
+  artifactKey: Guid(d3db4aec4b98e8841a4534b8af5c1681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair using Guid(d3db4aec4b98e8841a4534b8af5c1681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b63356005796e82ea0c9cb7b8c59ee') in 0.009286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061801 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/broken wooden chair.fbx
+  artifactKey: Guid(e5497db20e527704b8f0954cda676d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/broken wooden chair.fbx using Guid(e5497db20e527704b8f0954cda676d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8509294ea42348678129b2b08bf9963') in 0.045040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair_BaseColor.png
+  artifactKey: Guid(6ebcc17071772914aa0aef1294ad9d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair_BaseColor.png using Guid(6ebcc17071772914aa0aef1294ad9d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dacbdce1ef5afc948e48058aad90b5') in 0.041362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair_Normal.png
+  artifactKey: Guid(fe0c5478010da7b488d141e329bd627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair_Normal.png using Guid(fe0c5478010da7b488d141e329bd627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665d68c0a03dd4fcb847d1ba2cdde205') in 0.041135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair.fbx
+  artifactKey: Guid(ca36d41503db1a642b0e69cbff6e2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair.fbx using Guid(ca36d41503db1a642b0e69cbff6e2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da0352b71274288e749ca632195afe8') in 0.074654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair.mat
+  artifactKey: Guid(0ff5973e1eb723f4789902219fdcbe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair.mat using Guid(0ff5973e1eb723f4789902219fdcbe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5a2652b1e5e19b6bf565d3e7474b6a') in 0.046482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair_Roughness.png
+  artifactKey: Guid(8cee76aac8e67c64cbbfacdd9c8b9381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair_Roughness.png using Guid(8cee76aac8e67c64cbbfacdd9c8b9381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdca68e886d39de12374da6b436887d') in 0.038357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair_Metallic.png
+  artifactKey: Guid(f55fa5d00d6b8c141b60ff6e49479fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair_Metallic.png using Guid(f55fa5d00d6b8c141b60ff6e49479fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf235604d6beb5c78a435f608d9b2032') in 0.050869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.889283 seconds.
+  path: Assets/Asset pack for horror game/Prefabs
+  artifactKey: Guid(bcbabc0fb2585b14d8a30d7044d35242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs using Guid(bcbabc0fb2585b14d8a30d7044d35242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb38369708b59ed4790d776a4211ca1f') in 0.006117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.480931 seconds.
+  path: Packages/com.unity.cinemachine/package.json
+  artifactKey: Guid(7d93e7b7399fbe64790358e67fc94b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/package.json using Guid(7d93e7b7399fbe64790358e67fc94b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4f23e0e764e8e32e742984a0d26132') in 0.016571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.901810 seconds.
+  path: Assets/Scenes/Horror Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Horror Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f3b8319857b0b8191aa31e773c4ee5') in 0.006272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 612.161764 seconds.
+  path: Assets/Fences/diff_fence_column.mat
+  artifactKey: Guid(472202100946f3645909609cb8b3b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/diff_fence_column.mat using Guid(472202100946f3645909609cb8b3b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c884f66d24fe2c7be289cbf74012269a') in 0.124441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fences/fence2.FBX
+  artifactKey: Guid(69e23ab12525ab248b5fdcfd6807e3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence2.FBX using Guid(69e23ab12525ab248b5fdcfd6807e3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72408ec6a376a95cba7f56340b466559') in 0.039625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fences/gate.FBX
+  artifactKey: Guid(e2536659f7193414490a3fea04200a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/gate.FBX using Guid(e2536659f7193414490a3fea04200a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86416214034b706371ca2f6e60cb426') in 0.060846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fences/diff_fence_gate.mat
+  artifactKey: Guid(9b3da6fc288eb6d40a756c40911b6895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/diff_fence_gate.mat using Guid(9b3da6fc288eb6d40a756c40911b6895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950d16a9ab6694ac1e8f6822061e48d1') in 0.023335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fences/fence1.FBX
+  artifactKey: Guid(1c28602268ade034dbb8f08048b2f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence1.FBX using Guid(1c28602268ade034dbb8f08048b2f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c25e7c0f85c2ad909d217f464f69ba') in 0.030186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fences/diff_fence_gate.psd
+  artifactKey: Guid(d2ffbe8954bf63c4cacf99a77e542412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/diff_fence_gate.psd using Guid(d2ffbe8954bf63c4cacf99a77e542412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54b3d6c8ac453197d8c52630af36558') in 0.022570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fences/diff_fence_column.psd
+  artifactKey: Guid(486b04940bb5f4b4dab1b4233ad796e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/diff_fence_column.psd using Guid(486b04940bb5f4b4dab1b4233ad796e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3390d135588d680a51c5c5d63c94a255') in 0.031739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fences/fence_column.FBX
+  artifactKey: Guid(0cafdd4fdc2a4ed48abe810307ae8810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence_column.FBX using Guid(0cafdd4fdc2a4ed48abe810307ae8810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43d5b023d947ba0b33d3599a387dc2d') in 0.034222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.207397 seconds.
+  path: Assets/Materials/Colour #1.mat
+  artifactKey: Guid(8b5b09f7a34d367449049d5dc49f94e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colour #1.mat using Guid(8b5b09f7a34d367449049d5dc49f94e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb46b5ed9292da67fd893323a0ea2a88') in 0.012335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Neutral Floor.mat
+  artifactKey: Guid(87729b76e1becc843a84e52dd9142234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Neutral Floor.mat using Guid(87729b76e1becc843a84e52dd9142234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d17f4e1f53198be8fcf5075a974236a') in 0.025735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(612eb708991eae2408fa6eae3e052ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(612eb708991eae2408fa6eae3e052ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e9cbd577036edc6616a55b5dd892d2') in 0.034276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803238 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Floor_mat.mat
+  artifactKey: Guid(194a7e2c4a9fc5f409dca86a97e93fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Floor_mat.mat using Guid(194a7e2c4a9fc5f409dca86a97e93fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e18d8e1450becd61cf78e81ae1012ae') in 0.017304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.210619 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(086a44c1c4d8a994d8eff82aab50883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(086a44c1c4d8a994d8eff82aab50883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dc0cc49fe8885caf648b5f06790daf') in 0.022767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(a5123cb11622e364395a713a0b800e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(a5123cb11622e364395a713a0b800e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0ae08ae43fab38b941a21889d8866f') in 0.027388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(003aa51b824bb2644a60b53dfac3ae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(003aa51b824bb2644a60b53dfac3ae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bcac7768f93eddb7cfd433069c0e41') in 0.028559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(c0d62f54b994465439502b751d7dee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(c0d62f54b994465439502b751d7dee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdce4665d15953038054975262017c75') in 0.035892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.752382 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.016265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.503734 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table.fbx
+  artifactKey: Guid(3f567369409017542950fb64f611c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table.fbx using Guid(3f567369409017542950fb64f611c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc290dc446923d56ef2eac8cf08dc05') in 0.026484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Metallic.png
+  artifactKey: Guid(c953209abd00be843955094ee0b98ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Metallic.png using Guid(c953209abd00be843955094ee0b98ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ae269b77fd93a1a56f5919e00ead2b') in 0.023610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table_BaseColor.png
+  artifactKey: Guid(076686d5494ac4940b8a58dc2f3b0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table_BaseColor.png using Guid(076686d5494ac4940b8a58dc2f3b0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e33c79212193031fe35df9f3c037b6') in 0.026436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table.mat
+  artifactKey: Guid(ff675f12a0ae7374a95503c4d8df7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table.mat using Guid(ff675f12a0ae7374a95503c4d8df7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d803763791f449df1abb508eadb80e') in 0.052174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Roughness.png
+  artifactKey: Guid(90b273d86a33ca24d8c1f0f4479b0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Roughness.png using Guid(90b273d86a33ca24d8c1f0f4479b0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b21e692aac20b685d92a9c4df0e8f3e') in 0.020861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Normal.png
+  artifactKey: Guid(e15b64b2b57a774498a4834eb723ae49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Normal.png using Guid(e15b64b2b57a774498a4834eb723ae49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258ffd6f7632a623f62f13b6ede9e10b') in 0.023755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.100044 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window.fbx
+  artifactKey: Guid(bdc8f2b9a66d51d438c656e7ea57558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window.fbx using Guid(bdc8f2b9a66d51d438c656e7ea57558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd231c08f50b5e53253498738388b78f') in 0.039577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window_Normal.png
+  artifactKey: Guid(0efd3e048e9b3f74385c691438bb9758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window_Normal.png using Guid(0efd3e048e9b3f74385c691438bb9758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29157d0ca9f6cf20e67fb53b479fb647') in 0.025685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window_BaseColor.png
+  artifactKey: Guid(edcc162d20b7d8b4d9b40f532387669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window_BaseColor.png using Guid(edcc162d20b7d8b4d9b40f532387669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd80a626add04031ccd0fc607bc34cf') in 0.023175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window_Roughness.png
+  artifactKey: Guid(156eb670b86d5d34ab330b9fa4d55b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window_Roughness.png using Guid(156eb670b86d5d34ab330b9fa4d55b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68aab83f2713a583859a32373faa14b') in 0.027374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window.mat
+  artifactKey: Guid(2e2ee1f6d6ec63449b39996e7de66f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window.mat using Guid(2e2ee1f6d6ec63449b39996e7de66f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90e494e3f5dea90ba566d3fed5cd14f') in 0.067440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window_Metallic.png
+  artifactKey: Guid(24838600bbf306542bfd8342a643acc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window_Metallic.png using Guid(24838600bbf306542bfd8342a643acc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a9243f6b37f847f9529047c8f8f846') in 0.025203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.525081 seconds.
+  path: Assets/Cabin/Prefabs
+  artifactKey: Guid(a3839b42e1c4a0d4eb40cdbceb43c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Prefabs using Guid(a3839b42e1c4a0d4eb40cdbceb43c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3398aa22c94a046487fc7f43d4c72a32') in 0.002639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.679056 seconds.
+  path: Assets/Asset pack for horror game/Demo/demo scene.unity
+  artifactKey: Guid(e891a822694fee743885e99cd1744314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Demo/demo scene.unity using Guid(e891a822694fee743885e99cd1744314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892cdafcd9585a892f0860e5a9d0d8a3') in 0.007296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.950781 seconds.
+  path: Assets/Asset pack for horror game/Models/bed/bed.fbx
+  artifactKey: Guid(8965007fcd67e304bad0217b88af6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/bed/bed.fbx using Guid(8965007fcd67e304bad0217b88af6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5069b04f931db90e10ba67e84572afb4') in 0.038375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cabin/Models/Candle.fbx
+  artifactKey: Guid(0048762763ee8b744bed7f31839ac062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Candle.fbx using Guid(0048762763ee8b744bed7f31839ac062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2c3879379098cafae51f373f0a7d49') in 0.029453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cabin/Models/Lantern.fbx
+  artifactKey: Guid(338b2f380ec0e9e48a5ddc83d36b8592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Lantern.fbx using Guid(338b2f380ec0e9e48a5ddc83d36b8592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8149898ba242d5ccfa52791e6a1b3c89') in 0.078318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/standingButton.fbx
+  artifactKey: Guid(30c3ffc58d622f140bbe3c26f1a4b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/standingButton.fbx using Guid(30c3ffc58d622f140bbe3c26f1a4b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bed00bfb11ec01bfca947edef8a4f8d') in 0.075159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset pack for horror game/Models/iron chair/iron chair.fbx
+  artifactKey: Guid(e267554162ba8724fac7a8ab162b684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/iron chair/iron chair.fbx using Guid(e267554162ba8724fac7a8ab162b684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c810ebd001530aef5716e8b3058ee71') in 0.024421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset pack for horror game/Models/Room/Room.fbx
+  artifactKey: Guid(53587facaf2842f4898516b2fe7225c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Room/Room.fbx using Guid(53587facaf2842f4898516b2fe7225c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6549459f3f7d826bf85e57a9d6469a57') in 0.028761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cabin/Models/Cabin.fbx
+  artifactKey: Guid(20d81ae8281300d4cbcb5dec6f056d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Cabin.fbx using Guid(20d81ae8281300d4cbcb5dec6f056d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d344825e2512947c60bb623aa88e3f') in 0.061361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset pack for horror game/Models/broken window/broken window.fbx
+  artifactKey: Guid(f7b5fd9b6957de04daec035169cacc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken window/broken window.fbx using Guid(f7b5fd9b6957de04daec035169cacc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827f9328a5102571c57da7c9134cd448') in 0.026693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SwampHouse/Models/Table/Table 2.fbx
+  artifactKey: Guid(8a05f0578b071dd4c856c307475ebc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Table/Table 2.fbx using Guid(8a05f0578b071dd4c856c307475ebc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5e4a22a37e47cf5831eb045497d48a') in 0.026243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+  artifactKey: Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx using Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649a63bc238cd042d2d197f94400ed08') in 0.021777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FFK_Structure_01.fbx
+  artifactKey: Guid(998a74e98fa05e04e9cb38382266449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FFK_Structure_01.fbx using Guid(998a74e98fa05e04e9cb38382266449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb82b960f27a1b08d76aacf5f9370ebd') in 0.273200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit BA_01.fbx
+  artifactKey: Guid(65c4e0d1191656a43a436373673c91f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit BA_01.fbx using Guid(65c4e0d1191656a43a436373673c91f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa244e7cde5749c6e8216f706c4cf2bc') in 0.078782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_1.obj
+  artifactKey: Guid(75b854e5346818c40a4e71c38477d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_1.obj using Guid(75b854e5346818c40a4e71c38477d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c81d6a0989380d21fd3e6f24f64942') in 0.035521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_1.obj
+  artifactKey: Guid(bbd07f5bea472594b9b608efd5357525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_1.obj using Guid(bbd07f5bea472594b9b608efd5357525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f115ee42a664f088cf9e49e18c1c84') in 0.037730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb672f9cf7a9febb460d618019ac2af') in 0.046893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
+  artifactKey: Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx using Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5662fac0d055e202aed25bc89de4d839') in 0.023378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cabin/Models/Door.fbx
+  artifactKey: Guid(1276437f6e50eee40bb491b6c68d486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Door.fbx using Guid(1276437f6e50eee40bb491b6c68d486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e45eba280cd1c18dca59a27a82c78c1') in 0.023561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/flashlight.fbx
+  artifactKey: Guid(5b859dc1dd154b54fa94c9147efb609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/flashlight.fbx using Guid(5b859dc1dd154b54fa94c9147efb609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbeb4b1e91799776a80b3c7f57d2f84') in 0.031045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx
+  artifactKey: Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx using Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1759a619d989b7174accf6418a06b45') in 0.044834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SwampHouse/Models/Radio/Headphone/Headphone.fbx
+  artifactKey: Guid(f0e7998f077f28044a626b5c6e6163ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Radio/Headphone/Headphone.fbx using Guid(f0e7998f077f28044a626b5c6e6163ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831a9681f42d27043aaec8953ed04a51') in 0.059433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_2.obj
+  artifactKey: Guid(178f745d67c6ab8469d1eff67fce325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterWalk_2.obj using Guid(178f745d67c6ab8469d1eff67fce325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba34090deeaa55b4bc931c59c07247') in 0.034080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior.fbx
+  artifactKey: Guid(1e4c9d0deb3bcc144ae6e91318e143a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior.fbx using Guid(1e4c9d0deb3bcc144ae6e91318e143a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310eacb2e71ab0c5af6e9788326a89ba') in 0.078752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  artifactKey: Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx using Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921bf7024d30826ab8d241f3f26a75e5') in 0.027235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx using Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece1cf571df6c03912ed112f52312e91') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_01.fbx
+  artifactKey: Guid(013043932069e224e90b516d38cdab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_01.fbx using Guid(013043932069e224e90b516d38cdab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fa1538f32d4ecd4472c4efc3ac041d') in 0.081807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/Burger_01.fbx
+  artifactKey: Guid(b9c054b445d458c45bcb601fd368e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/Burger_01.fbx using Guid(b9c054b445d458c45bcb601fd368e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c00860bc5c0b722ac523a6a2cef3430') in 0.167600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SwampHouse/Models/Radio/Radio.fbx
+  artifactKey: Guid(9509c5b766352084a9e9847b113590b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Radio/Radio.fbx using Guid(9509c5b766352084a9e9847b113590b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfff9e191728a62b13102226096ca4f') in 0.072727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset pack for horror game/Models/Door/Door.fbx
+  artifactKey: Guid(7707b2b7239b05f43862d77e9d31565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Door/Door.fbx using Guid(7707b2b7239b05f43862d77e9d31565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263b2743e00d02e8bd77fbf59cd8ce59') in 0.026229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6198301e017578264a2f398f732a5113') in 0.030218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_Chair_01.fbx
+  artifactKey: Guid(b06a7002771176e48b2aaba873e28341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_Chair_01.fbx using Guid(b06a7002771176e48b2aaba873e28341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27c0f9352ed2f01c8f579f44415711d') in 0.098416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/key/key.fbx
+  artifactKey: Guid(2c5e779568bc06c4d947ac355f408a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/key/key.fbx using Guid(2c5e779568bc06c4d947ac355f408a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31493232beb72507f0f1bafd6bebf033') in 0.027443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/fluorescent lamp/fluorescent lamp.fbx
+  artifactKey: Guid(e404c1a307050314391b320cb269b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/fluorescent lamp/fluorescent lamp.fbx using Guid(e404c1a307050314391b320cb269b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05aa37dcca79741e86963d7065058405') in 0.031829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_Table.fbx
+  artifactKey: Guid(67171e1fd1d009c43b75a962fa5556a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_Table.fbx using Guid(67171e1fd1d009c43b75a962fa5556a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be14156e0e7acbafb0757b820da537b8') in 0.025085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662760b70c8491cd750984f32300a894') in 0.029974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset pack for horror game/Models/broken bed/broken bed.fbx
+  artifactKey: Guid(b6aeaf37aa4c053489b1e7feb2e8fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken bed/broken bed.fbx using Guid(b6aeaf37aa4c053489b1e7feb2e8fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f039c7a29bfbca2ffbc8b7fd1108607') in 0.031524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.fbx
+  artifactKey: Guid(2b4cf484280bf794aa01a08971d7c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.fbx using Guid(2b4cf484280bf794aa01a08971d7c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e425945c1374881dbe776af0f2afe6') in 0.028424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/scifiDoor.fbx
+  artifactKey: Guid(52d987aaa397a2676940f04a85408c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/scifiDoor.fbx using Guid(52d987aaa397a2676940f04a85408c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229b8c184ae20751ec7cbd7571921578') in 0.106087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/iron chair/broken iron chair.fbx
+  artifactKey: Guid(778d9e9886d8aab4da536fcbc72dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/iron chair/broken iron chair.fbx using Guid(778d9e9886d8aab4da536fcbc72dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68b2aa1dd6f889a79691f06457697d8') in 0.029065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterJump_1.obj
+  artifactKey: Guid(3fcd0b22c2baab54b9d6325ddc633291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterJump_1.obj using Guid(3fcd0b22c2baab54b9d6325ddc633291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c204864adeda67a814813a82e807247') in 0.037115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_03.fbx
+  artifactKey: Guid(debe1ddd75be8634d866f9de231a0581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_03.fbx using Guid(debe1ddd75be8634d866f9de231a0581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afda216d9ca7e941fead3065073b950') in 0.028607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx
+  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15190d1f8c9f9b2a75b7d965dda0a2ee') in 0.268297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset pack for horror game/Models/curtain/curtain.fbx
+  artifactKey: Guid(ed7b06dd89d630f4eb2b050a37a33919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/curtain/curtain.fbx using Guid(ed7b06dd89d630f4eb2b050a37a33919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5bdd3260fbd6e3ea9dc81c6eedbd7b') in 0.030174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair.fbx
+  artifactKey: Guid(e188d6361c779884aa6fb6f6d5addf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair.fbx using Guid(e188d6361c779884aa6fb6f6d5addf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eac402f79fc8a14e410f763384960f6') in 0.029570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2553c69d4ce08815be6848b2ef202c9') in 0.035184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/sword.fbx
+  artifactKey: Guid(3ccc8beee67ab6d4e8a88939b0aa6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/sword.fbx using Guid(3ccc8beee67ab6d4e8a88939b0aa6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0894a1432e4c7fab57c2e8eb3ed55ebc') in 0.034383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f272433298cdca546ea58c60bce28fe') in 0.033438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_02.fbx
+  artifactKey: Guid(7308b87287964d64b9769b7e0d6d7314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_02.fbx using Guid(7308b87287964d64b9769b7e0d6d7314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e365348f3ff40ba07ea77c5f7ae8cc64') in 0.027888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.fbx
+  artifactKey: Guid(70bce123534f9d941b2b4f70c05a193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.fbx using Guid(70bce123534f9d941b2b4f70c05a193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16510193dd576c5621a7fbc5236c39a') in 0.028356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior - 01.fbx
+  artifactKey: Guid(8537129dc3fbbe44186add4eea186b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior - 01.fbx using Guid(8537129dc3fbbe44186add4eea186b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ec32d755a5da9da3a17457568affe') in 0.109408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cabin/Models/Cabinet.fbx
+  artifactKey: Guid(d23033fcf53708146b5de87c9f44bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Cabinet.fbx using Guid(d23033fcf53708146b5de87c9f44bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb5f8cb05ace17e26e0046bfcb86d0f') in 0.027027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FF_Sign_01.fbx
+  artifactKey: Guid(2691b355dc36f6f4abf6a5caa3d0165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FF_Sign_01.fbx using Guid(2691b355dc36f6f4abf6a5caa3d0165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eefc1ea350d2b60105d4c5b7d75969d') in 0.028245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_2.obj
+  artifactKey: Guid(4a7f53fd7adced34e8838d2564464810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterIdle_2.obj using Guid(4a7f53fd7adced34e8838d2564464810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895829029813f55bd71fb35dbd6b7459') in 0.030126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FFK_FurnitureProps_01.fbx
+  artifactKey: Guid(03aa99419670d9840a32509ff44e82f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FFK_FurnitureProps_01.fbx using Guid(03aa99419670d9840a32509ff44e82f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0916dd7ff6d4ec7d2bbac0244e5ae664') in 0.585138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N_Land.anim.fbx
+  artifactKey: Guid(3c033631149b9c541bcf155cd94cccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N_Land.anim.fbx using Guid(3c033631149b9c541bcf155cd94cccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a37990edcf9c02dc46afd34af9001f') in 0.021932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1e133eab684b112d436119b7760b8c') in 0.041944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx
+  artifactKey: Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx using Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f71c4367908afd7a35c432d36880994') in 0.056953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_S.anim.fbx
+  artifactKey: Guid(a073c604c44135e438eeeaef77058ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_S.anim.fbx using Guid(a073c604c44135e438eeeaef77058ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19209762bdf76279272aa3d0902462aa') in 0.018197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cabin/Models/Bed.fbx
+  artifactKey: Guid(3d27964f2ea12f043b80ea427f49b2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Bed.fbx using Guid(3d27964f2ea12f043b80ea427f49b2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86a379cf2098257fd5f4ec6f1fc4eb6') in 0.024940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx
+  artifactKey: Guid(8269a9f8cf495034c817722ac21f309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx using Guid(8269a9f8cf495034c817722ac21f309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc99abee04ac04828d06e0cd8565c4') in 0.017707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cabin/Models/Table.fbx
+  artifactKey: Guid(b8633c9de8ff944469ddecefa43b4461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Table.fbx using Guid(b8633c9de8ff944469ddecefa43b4461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6639b47e29be7edf4a0085859f167e5d') in 0.021441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cabin/Models/Stool.fbx
+  artifactKey: Guid(1ba8623869bbf644b848eada3e06dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Stool.fbx using Guid(1ba8623869bbf644b848eada3e06dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f27f8071487805a9b73b89c94f31af') in 0.026499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy/office chair.fbx
+  artifactKey: Guid(0156872a951ba6e44a3a8596040789c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy/office chair.fbx using Guid(0156872a951ba6e44a3a8596040789c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb1bace705a72ed3dc922db096b44be') in 0.096605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx
+  artifactKey: Guid(063aa479676c4084ebf187660ca0a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx using Guid(063aa479676c4084ebf187660ca0a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dbe6c44e0068a62aece42c8d37450d') in 0.019000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.fbx
+  artifactKey: Guid(f8ccfd0090958aa4e844f5bb68407553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.fbx using Guid(f8ccfd0090958aa4e844f5bb68407553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bcb853f2c7bdbad6d9b65636860c86') in 0.036656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/physicsGrabber.fbx
+  artifactKey: Guid(7fb06094f45956cc596e8b36a78ef932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/AsourModels/physicsGrabber.fbx using Guid(7fb06094f45956cc596e8b36a78ef932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233b3472f762b1f28f2bc9e57536b1dc') in 0.076989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx
+  artifactKey: Guid(325a26d62b61fa94cb3c97c435efebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-TPC/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx using Guid(325a26d62b61fa94cb3c97c435efebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d08f74319530bec1874c6c8bcaaa33') in 0.022457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SwampHouse/Models/Table/Stool.fbx
+  artifactKey: Guid(700f9ae30218c6a4686462db5b594800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Table/Stool.fbx using Guid(700f9ae30218c6a4686462db5b594800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24d94ecf4c82aa99b63ba3a60ad7692') in 0.038114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/fixedBlaster.fbx
+  artifactKey: Guid(241d339f4216d7c4599d04763ac423c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/EtraItemModels/fixedBlaster.fbx using Guid(241d339f4216d7c4599d04763ac423c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb9f5c02b8fa0e0a8a37cab8eaeeab') in 0.042582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.546003 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat
+  artifactKey: Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat using Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f175d14b8bf93313ebbaddce6d85fd') in 0.086550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat
+  artifactKey: Guid(255352a35d6d72c4e8ee50bc826f7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat using Guid(255352a35d6d72c4e8ee50bc826f7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a369fbef08f9fcedb74642c119785246') in 0.041409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterMat.mat
+  artifactKey: Guid(bbd483bd0da3cd94cbb105de60e11bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Models/CodyModels/characterMat.mat using Guid(bbd483bd0da3cd94cbb105de60e11bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5fd194efecf32f0dfc21e38d8bb492') in 0.026473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 02.mat
+  artifactKey: Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 02.mat using Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972765024cf91d6b60204acebf7fcff1') in 0.023715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fences/Materials/diff_fence_column.mat
+  artifactKey: Guid(22d081d84531a5b42ad131667275d644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Materials/diff_fence_column.mat using Guid(22d081d84531a5b42ad131667275d644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a40d1763c749fd0ac5c061b19a5aac') in 0.017730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.mat
+  artifactKey: Guid(ff2a2e6e6407e744a9fd0a2d2268440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.mat using Guid(ff2a2e6e6407e744a9fd0a2d2268440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370a753a9044962e6554be72d8e2d038') in 0.026043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SwampHouse/Models/House/Mets/Corrugate.mat
+  artifactKey: Guid(5e7d5f3c652456f4d864ff964f6a8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/House/Mets/Corrugate.mat using Guid(5e7d5f3c652456f4d864ff964f6a8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135f9905b123f848c4743d947098eb1c') in 0.049166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tree_Textures/Materials/diffuse.mat
+  artifactKey: Guid(3af128c5b37c42f48ac67aa518139614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials/diffuse.mat using Guid(3af128c5b37c42f48ac67aa518139614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9851f61e45a317c3556ee1649742cadf') in 0.018157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cabin/Terrain/Tree/Bark.mat
+  artifactKey: Guid(25a2a90fae5b18048a9de819d474ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Terrain/Tree/Bark.mat using Guid(25a2a90fae5b18048a9de819d474ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a37737376dbec9937702d6b8204254') in 0.249205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cabin/Models/Materials/Bed.mat
+  artifactKey: Guid(4a209352e3fc1474ebdc91a35303885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Materials/Bed.mat using Guid(4a209352e3fc1474ebdc91a35303885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da05df2ce44adb883a1098d015c0ae4c') in 0.021338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Nugget_01.mat
+  artifactKey: Guid(6e04f376c1fc2104f9fc364760fc4f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Nugget_01.mat using Guid(6e04f376c1fc2104f9fc364760fc4f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df0f2a9d8f8e5ee0650ed4bb9e12a02') in 0.019172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceba61d81697ca36e149a131424c570') in 0.127934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonScreen.mat
+  artifactKey: Guid(6a28708f2284af2dc83c94123def9b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonScreen.mat using Guid(6a28708f2284af2dc83c94123def9b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fdeb66926a2e20ba7f411f44a158f8') in 0.022809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cabin/Models/Materials/Cabinet.mat
+  artifactKey: Guid(29edc7918023ff74da6a9eb7b4be8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Materials/Cabinet.mat using Guid(29edc7918023ff74da6a9eb7b4be8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903823bbc09acb77a8adc056c35b4c98') in 0.018871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset pack for horror game/Models/curtain/curtain.mat
+  artifactKey: Guid(aed325219a6ae9e4b893637972bd8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/curtain/curtain.mat using Guid(aed325219a6ae9e4b893637972bd8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e9a3769495d1fd0b0f90094044e1a') in 0.029665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SwampHouse/Models/House/Mets/Bulb-off.mat
+  artifactKey: Guid(2b98517fe119ca647ba13b3e0e7175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/House/Mets/Bulb-off.mat using Guid(2b98517fe119ca647ba13b3e0e7175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf21ad7645df4c6f5191fd35653b453') in 0.024672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat
+  artifactKey: Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat using Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1f9f8d890029ba73e013ddbd3c45b0') in 0.029871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.mat
+  artifactKey: Guid(ef9b0c0fe78b1ff4891ad60df5caacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.mat using Guid(ef9b0c0fe78b1ff4891ad60df5caacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4f6d5f222e0a8477b7cc32d4b90a74') in 0.022826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Burger_01.mat
+  artifactKey: Guid(f74fcd32b5747ea47864481461c17d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Burger_01.mat using Guid(f74fcd32b5747ea47864481461c17d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde3ee3a21f1042f24c6905d0ab5b896') in 0.022430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SwampHouse/Models/House/Mets/Bricks.mat
+  artifactKey: Guid(56150a2091eb60f4480f94c1d15b2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/House/Mets/Bricks.mat using Guid(56150a2091eb60f4480f94c1d15b2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a67bb9f0d2eff278818805425c4e7c9') in 0.103205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick mute 02.mat
+  artifactKey: Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick mute 02.mat using Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a488d8428a23ea1a889161bef5e5a97') in 0.106602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonMain.mat
+  artifactKey: Guid(d329c0828e5b04f73aa8fba6cad0d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonMain.mat using Guid(d329c0828e5b04f73aa8fba6cad0d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1db542207c52fade72abd01f807eb2') in 0.025787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/broken window/broken window.mat
+  artifactKey: Guid(2a753ce07725b6b4e9dd90faebb3bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken window/broken window.mat using Guid(2a753ce07725b6b4e9dd90faebb3bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c378ff84e7bdc246c295e8562f61210b') in 0.030464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fences/Materials/diff_fence_gate.mat
+  artifactKey: Guid(cbfb468d5b6e69841b14e305f55d9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Materials/diff_fence_gate.mat using Guid(cbfb468d5b6e69841b14e305f55d9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e7e6a3b1461cb09be210215149b8ba') in 0.016043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/Materials/BurgerSign_01_A.mat
+  artifactKey: Guid(211c312e5fe45df46989d2ae47925b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Materials/BurgerSign_01_A.mat using Guid(211c312e5fe45df46989d2ae47925b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f63716f51576e90e4979d40b18a0fa') in 0.031161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 03.mat
+  artifactKey: Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 03.mat using Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7697cb0d4717a208df621961fdc4cdb2') in 0.020675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Black_01.mat
+  artifactKey: Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Black_01.mat using Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808ab9d01a57abbe6cfea035456cd6fc') in 0.016434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_03.mat
+  artifactKey: Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_03.mat using Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46cece23768874f230c17857aef5096') in 0.032517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cabin/Models/Materials/Cabin.mat
+  artifactKey: Guid(21ba00c050a978c479ce3d7ac9fc0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Materials/Cabin.mat using Guid(21ba00c050a978c479ce3d7ac9fc0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88e88384db9e137d3611ec4bb55a2db') in 0.054402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Mirror.mat
+  artifactKey: Guid(97cb562e985012a4f8db1dfe9f95115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Mirror.mat using Guid(97cb562e985012a4f8db1dfe9f95115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7686d581a89c0dd8a159979c052aac') in 0.021289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Chrome_01.mat
+  artifactKey: Guid(701dd7c589db913439e88caa8d11b7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Chrome_01.mat using Guid(701dd7c589db913439e88caa8d11b7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a306a32dd5768ea73c2139c0d5feb155') in 0.020319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.mat
+  artifactKey: Guid(d510709ca1dc18e4aa85898ae76c5049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.mat using Guid(d510709ca1dc18e4aa85898ae76c5049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4770946ee95da89aa4a743cb306f15') in 0.024434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat
+  artifactKey: Guid(50dd338fb2540fa4aa15639a529736ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat using Guid(50dd338fb2540fa4aa15639a529736ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3a8024ab0418408c2698f0739dec79') in 0.026516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Brushed_01.mat
+  artifactKey: Guid(fe522d7b1289c4345b686fc29ee51adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Brushed_01.mat using Guid(fe522d7b1289c4345b686fc29ee51adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba9cfe376a9f6705ee75556f53990aa') in 0.020462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat
+  artifactKey: Guid(c4633b4bc8d4dbb41bc32118f1812b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat using Guid(c4633b4bc8d4dbb41bc32118f1812b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7949c89cd07c75821c4c366afbb1e5') in 0.017602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brushed Chrome.mat
+  artifactKey: Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brushed Chrome.mat using Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1113cc88ad16541c1c3876fec56ce26f') in 0.020568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cabin/Models/Materials/Candle.mat
+  artifactKey: Guid(c6dfbb4345d96f24386c01c4781bc163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Models/Materials/Candle.mat using Guid(c6dfbb4345d96f24386c01c4781bc163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d398b85f66f8b4ec5957da3984efebe') in 0.019842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Dip_01.mat
+  artifactKey: Guid(ad2b69237ac6036429a3427943d978c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Dip_01.mat using Guid(ad2b69237ac6036429a3427943d978c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f18e8c64239689dd3553c92afc1ee9') in 0.020965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_02.mat
+  artifactKey: Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_02.mat using Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680e25689be7bf40529f2e16578ad235') in 0.031682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonHover.mat
+  artifactKey: Guid(5e8f254478f58e88786a2cade194947a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonHover.mat using Guid(5e8f254478f58e88786a2cade194947a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d47cac3bff9adf15555407fd36e3f0') in 0.022069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SwampHouse/Models/Barrel/Materials/Barrel2.mat
+  artifactKey: Guid(15524d6a97edcb348b136b7278bc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Barrel/Materials/Barrel2.mat using Guid(15524d6a97edcb348b136b7278bc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38414ba7e6857cf8a3340560ef3da062') in 0.041030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/bed/bed.mat
+  artifactKey: Guid(9a8d3fcc880d4db4b803a629f50f8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/bed/bed.mat using Guid(9a8d3fcc880d4db4b803a629f50f8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0652612ad6c05d86ab9d9632a2067c6') in 0.025476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Burger_01.mat
+  artifactKey: Guid(3ffc7efcfca73924a8503cb7e43e27f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Burger_01.mat using Guid(3ffc7efcfca73924a8503cb7e43e27f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e91e5230fb271f1d9ec5c6473c388a4') in 0.020473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Fries_01.mat
+  artifactKey: Guid(ce86f78e396e61e40b27785cc5a86af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Fries_01.mat using Guid(ce86f78e396e61e40b27785cc5a86af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550a689f40d8c160860ad719b98aef3e') in 0.021599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonPressed.mat
+  artifactKey: Guid(08821076175444faab3ff218b8ec4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonPressed.mat using Guid(08821076175444faab3ff218b8ec4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e9b13a0758f3936f9c11b2e3d503d') in 0.021667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonBase.mat
+  artifactKey: Guid(fc212598e943389aeb71246005a9b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/Materials/Button/ButtonBase.mat using Guid(fc212598e943389aeb71246005a9b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ab0cb660a29403a81d938b65a00f27') in 0.021150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SwampHouse/Models/Barrel/Materials/Barrel.mat
+  artifactKey: Guid(9d6239a5718cd1e48be24819bb5a2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Barrel/Materials/Barrel.mat using Guid(9d6239a5718cd1e48be24819bb5a2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6c23e0154ed7a04ac014f35f7bde58') in 0.050237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glow_White_01.mat
+  artifactKey: Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glow_White_01.mat using Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263934d482c422f4320e77a7a9e92cac') in 0.019403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick 02.mat
+  artifactKey: Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick 02.mat using Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8be097ea79ed1249656cdc0763218a') in 0.028429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Gold_01.mat
+  artifactKey: Guid(e000cf84e00aa6f4aac76474f809a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Gold_01.mat using Guid(e000cf84e00aa6f4aac76474f809a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df87c7f34808c3bc02cf792a480f1723') in 0.024824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SwampHouse/Models/House/Mets/Bulb-on.mat
+  artifactKey: Guid(d9f467314ce6d564ca1ea76b8f63a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/House/Mets/Bulb-on.mat using Guid(d9f467314ce6d564ca1ea76b8f63a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34173bc3eab393e485ff22922fb35171') in 0.124253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Leather_01.mat
+  artifactKey: Guid(0656c89128e147645951f2c0649b10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Leather_01.mat using Guid(0656c89128e147645951f2c0649b10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809bb03be0a26b61db85a9b4b80e582') in 0.030965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset pack for horror game/Models/broken bed/broken bed.mat
+  artifactKey: Guid(1f2b3574b7ea3384bb5bbe00005e8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken bed/broken bed.mat using Guid(1f2b3574b7ea3384bb5bbe00005e8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac83edad616cdb34e7d3b9bb4b677b2f') in 0.027002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat
+  artifactKey: Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat using Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fa223d91faced81e3ec1e9a3c52239') in 0.020005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Marble_01.mat
+  artifactKey: Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Marble_01.mat using Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82889cb3d0de98f85f1cffef982ef4c6') in 0.030625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat
+  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef9a9922a6d7ea7eb4b6e7f5abf53e3') in 0.034392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SwampHouse/Models/House/Mets/Button.mat
+  artifactKey: Guid(67f32a368730a484d89cfc44a6359fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/House/Mets/Button.mat using Guid(67f32a368730a484d89cfc44a6359fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdb5c9a668b49646cb9d2424db82a03') in 0.025366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Grey_01.mat
+  artifactKey: Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Grey_01.mat using Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1a129411a1ab39de10f5054710aa3f') in 0.021022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat
+  artifactKey: Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat using Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15613ce2a29b109988e72d5a959945ee') in 0.019406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Blue_Mat.mat
+  artifactKey: Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Art/Materials/Blue_Mat.mat using Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01fabbbce9901805c2719d5bbfe09dd') in 0.020618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SwampHouse/Models/Radio/Tex/Materials/Body.mat
+  artifactKey: Guid(c0e21b40bfedd2d4bb3e3b0c5e276287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Models/Radio/Tex/Materials/Body.mat using Guid(c0e21b40bfedd2d4bb3e3b0c5e276287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb02ff0ef48d920ee8b6e23fb8246aef') in 0.020533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Concrete_01.mat
+  artifactKey: Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Concrete_01.mat using Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ea863dfc6cd92de4ea924a4faa9e9a') in 0.050004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.631399 seconds.
+  path: Assets/Scenes/Horror Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Horror Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089a5c395f535fcdadcc682421816bf0') in 0.003105 seconds 
